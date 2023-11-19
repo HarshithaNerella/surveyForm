@@ -1,0 +1,77 @@
+.bgContainer{
+    background-color:lightblue;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.labelEl{
+    color: black;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.inputEl{
+    height: 20px;
+    border-width: 0;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left:10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.genderEl{
+  margin:5px;
+    cursor: pointer;
+}
+
+.selectEl{
+    margin: 10px;
+    height: 30px;
+    border-width: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.genderEl1{
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.genderContainer{
+    margin: 15px;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.btn{
+    height: 30px;
+    width: 80px;
+    margin: 10px;
+    align-self: center;
+    border-width: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.resetBtn{
+    background-color: lightgoldenrodyellow;
+}
+
+.submitBtn{
+    background-color: cadetblue;
+}

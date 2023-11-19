@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="surveyForm.css">
+    </head>
+    <body>
+        <div class="bgContainer">
+            <h1 class="surveyHead">Survey Form</h1>
+            <form class="formContainer" id="surveyForm">
+                <label for="Firstname" class="labelEl">First Name</label>
+                <input type="text" class="inputEl" placeholder="First Name" id="First Name" required/>
+
+                <label for="Lastname" class="labelEl">Last Name</label>
+                <input type="text" class="inputEl" placeholder="First Name" id="Last Name" required/>
+
+                <label for="DOB" class="labelEl">Date Of Birth</label>
+                <input type="date" class="inputEl" placeholder="DOB" id="DOB" required/>
+
+                <p class="labelEl" class="genderEl" >Gender</p>
+               <div class="genderContainer" required>
+                
+                <input type="checkbox" id="gender-male" class="genderEl" >
+                <label for="gender-male" class="genderEl1">Male</label>
+                <input type="checkbox" id="gender-female" class="genderEl"  >
+                <label for="gender-female" class="genderEl1">Female</label>
+                <input type="checkbox" id="gender-other" class="genderEl" >
+                <label for="gender-other" class="genderEl1">Other</label>
+            </div>
+
+                <label for="country" class="labelEl">Country</label>
+                <select id="country" class="selectEl" required>
+                </select>
+
+                <label for="Profession" class="labelEl">Profession</label>
+                <input type="text" class="inputEl" placeholder="Profession" id="Profession" required/>
+
+                <label for="email"  class="labelEl">E-mail</label>
+                <input type="email" class="inputEl" placeholder="E-mail" id="email" required/>
+
+                <label for="mobile" class="labelEl">Mobile Number</label>
+                <input type="tel" class="inputEl" placeholder="Mobile Number" id="mobile" required/>
+                <div class="btnContainer">
+                    <button class="btn submitBtn" type="submit">Submit</button>
+                    <button class="btn resetBtn" type="button" id="resetBtn">Reset</button>
+                </div>
+            </form>
+        </div>
+        <script src="surveyForm.js"></script>
+    </body>
